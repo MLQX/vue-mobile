@@ -36,4 +36,6 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 * 导入不同组件库，mint-ui,mui 混淆
 * 引入mui样式文件，提示依赖字体文件
 * mint各组件按需导入
+* tab标签的图标，需要导入额外的css和ttf
+
 

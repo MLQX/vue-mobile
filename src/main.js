@@ -4,13 +4,18 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import Index from '@/components/Index'
-import '../lib/mui.min.css'
+import '../lib/mui/css/mui.min.css'
+import '../lib/mui/css/icons-extra.css'
 import 'mint-ui/lib/style.min.css'
-import { Header } from 'mint-ui'
+import axios from 'axios'
+import { Header, Swipe, SwipeItem } from 'mint-ui'
 
 Vue.config.productionTip = false
 
 Vue.component(Header.name, Header)
+Vue.component(Swipe.name, Swipe)
+Vue.component(SwipeItem.name, SwipeItem)
+Vue.prototype.$axios = axios
 
 /* eslint-disable no-new */
 new Vue({
